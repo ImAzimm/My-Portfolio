@@ -13,6 +13,7 @@ function Home(){
                         <button>Contact me</button>
                     </a>
                 </div>
+                
                 <div className='my-image'>
                     <img src={image} alt="" />
                 </div>

@@ -22,14 +22,15 @@ function PortfolioPage(props){
                             <><span>{metadata.span}</span>
                             <button onClick={() => gotoLink(metadata.link)}>See more</button></>))}
                         </div>
-                        
                     </div>
+
                     <div className='my-image'>
                         <img src={data.thumbnail[1]} alt="" />
                     </div>
                 </div>
         </div>
-        <div className='component' style={{backgroundColor:'var(--burgundy)'}}>
+        
+        <div className='component burgundy'>
             <div style={{padding:'6rem 0'}}>
                 <h1 style={{color:'white'}}>
                     <span>My </span>

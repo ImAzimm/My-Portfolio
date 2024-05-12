@@ -56,3 +56,17 @@
 #container:hover #type{
     background-color: var(--dark-burgundy);
 }
+
+@media only screen and (max-width:600px) {
+    #container{
+        width: 80%;
+    }
+
+    #type{
+        background-color: var(--bright-pink);
+        width: fit-content;
+        height: fit-content;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+    }
+}

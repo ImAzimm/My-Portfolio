@@ -17,8 +17,13 @@
     color: var(--bright-pink);
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 600px) {
+    .header-option{
+        display: none;
+    }
+
     #header{
-        background-color: #000;
+        width: 100vw;
+        box-sizing: border-box;
     }
 }

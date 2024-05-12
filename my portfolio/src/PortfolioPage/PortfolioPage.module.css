@@ -4,6 +4,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding-right: 3.6rem;
+    column-gap: 2rem;
 }
 
 #details{
@@ -16,7 +17,21 @@
 #grid {
     display: grid;
     margin-top: 2rem;
-    grid-template-columns: 15rem 10rem;
+    grid-template-columns: 50% 50%;
     align-items: center;
     row-gap: 1rem;
+    width: 100%;
+}
+
+@media only screen and (max-width:600px) {
+    #details-container{
+        flex-direction: column;
+        row-gap: 4rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #details{
+        width: 100%;
+    }
 }

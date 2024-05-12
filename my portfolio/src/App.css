@@ -58,6 +58,7 @@ button:hover{
 .image-item {
   width: auto;
   height: 36rem;
+  height: 40vw;
   max-width: 1152px;
   object-fit: cover;
   border-radius: 8px;
@@ -65,7 +66,7 @@ button:hover{
 }
 
 .image-item:hover{
-  height: 37rem;
+  height: 41vw;
   cursor: pointer;
 }
 
@@ -79,4 +80,19 @@ button:hover{
   top: 0;
   left: 0;
   z-index: 50;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .header-pos{
+    width: 100vw;
+  }
+
+  .component{
+    padding: 0 3rem;
+  }
+
+  .my-image{
+    width: 70vw;
+  }
 }

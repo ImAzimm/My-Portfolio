@@ -5,6 +5,7 @@
     justify-content: space-between;
     align-items: center;
     color: white;
+    column-gap: 2rem;
 }
 
 #aboutme-details{
@@ -31,4 +32,16 @@
 
 #aboutme-details button:hover{
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px){
+    #aboutme-container{
+        flex-direction: column;
+        row-gap: 2rem;
+        padding: 6rem 0;
+    }
+
+    #aboutme-details{
+        width: 100%;
+    }
 }
