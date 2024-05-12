@@ -1,0 +1,24 @@
+#header{
+    padding: 0rem 10%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-option{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2.19rem;
+}
+
+.header-option h4:hover{
+    cursor: pointer;
+    color: var(--bright-pink);
+}
+
+@media only screen and (max-width: 1200px) {
+    #header{
+        background-color: #000;
+    }
+}

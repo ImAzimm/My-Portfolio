@@ -1,0 +1,29 @@
+#home-container{
+    padding: 6rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3.6rem;
+}
+
+#home-details{
+    width: 31.6rem;
+    height: fit-content;
+    padding: 0.625rem;
+    color: white;
+}
+
+#home-details h4{
+    font-weight: normal;
+    color: var(--bright-pink);
+    font-size: 1.25rem;
+}
+
+#home-details h1{
+    font-size: 2.5rem;
+}
+
+#home-details button:hover{
+    cursor: pointer;
+}

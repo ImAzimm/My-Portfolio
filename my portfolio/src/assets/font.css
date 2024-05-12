@@ -1,0 +1,8 @@
+/* fonts.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+/* Define font-family for using Lexend Deca */
+:root {
+  --lexend-deca: 'Lexend Deca', 'inter', sans-serif; /* Define a CSS variable for the font-family */
+}

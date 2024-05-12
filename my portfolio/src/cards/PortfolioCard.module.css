@@ -1,0 +1,58 @@
+#container{
+    width: 21.6rem;
+    aspect-ratio: 0.58/1;
+    color: white;
+    padding: 0.625rem;
+    border-radius: 1.25rem;
+}
+
+#container h3{
+    color: var(--bright-pink);
+    margin-bottom: -0.5rem;
+    margin-top: .5rem;
+}
+
+#container p{
+    height: 4rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#image-ph{
+    background-color: #d9d9d9;
+    aspect-ratio: 0.8/1;
+    border-radius: 1.25rem;
+    overflow: hidden;
+}
+
+#image-ph img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+#type{
+    background-color: var(--bright-pink);
+    width: fit-content;
+    height: fit-content;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.25rem;
+}
+
+#type h5{
+    margin: 0;
+}
+
+#container:hover{
+    cursor: pointer;
+    background-color: var(--bright-pink);
+    box-shadow: 0px 0px 1.25rem 0.25rem var(--dark-burgundy);
+}
+
+#container:hover h3{
+    color: var(--dark-burgundy);
+}
+
+#container:hover #type{
+    background-color: var(--dark-burgundy);
+}

@@ -1,0 +1,34 @@
+#aboutme-container{
+    padding: 6rem 3.125rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+#aboutme-details{
+    width: 32.4rem;
+}
+
+#aboutme-details h1{
+    font-size: 2.5rem;
+}
+
+#aboutme-details p{
+    text-align: justify;
+}
+
+#aboutme-details button{
+    background-color: var(--bright-pink);
+    border: none;
+    font-family: var(--lexend-deca);
+    color: var(--dark-burgundy);
+    padding: 0.5rem 1.25rem;
+    border-radius: 0.25rem;
+    margin-top: 1.25em;
+}
+
+#aboutme-details button:hover{
+    cursor: pointer;
+}

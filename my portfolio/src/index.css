@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--lexend-deca);
+  background-color: var(--light-burgundy);
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+h1{
+  font-size: 2.125rem;
+}
+
+h2{
+  font-size: 1.875rem;
+}
+
+h3{
+  font-size: 1.5rem;
+}
+
+h4{
+  font-size: 1.25rem;
+}
+
+h5{
+  font-size: 1.125rem;
+}
+
+p a h6{
+  font-size: 1rem;
+}
+
+.pink{
+  color: var(--bright-pink);
+}
