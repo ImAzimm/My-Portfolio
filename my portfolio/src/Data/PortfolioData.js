@@ -46,7 +46,7 @@ const azImg = [az1, az2]
 const azThb = [az3, az4]
 const azLink = [{span: 'Figma Prototype: ', link: 'https://www.figma.com/file/MFMaWG9Eam2GQ5APlcGaee/AZ-PRINTING-WEB?type=design&node-id=65%3A2&mode=design&t=eDlcA0m3ALS4J0yD-1'}]
 
-const fdImg = [fd3, fd4, fd5, fd6, fd7]
+const fdImg = [fd3, fd4, fd5, fd6, fd7, fd8, fd9]
 const fdThb =[fd1, fd2]
 const fdLink = [
     {span: 'Figma Prototype: ', link: 'https://www.figma.com/design/YwIlQtsop201qn1oa1xC4w/FectDo?node-id=0%3A1&t=g1ZfCv4oIZHASNoH-1'},
